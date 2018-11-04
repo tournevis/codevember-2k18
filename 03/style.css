@@ -1,0 +1,44 @@
+body, html{
+  margin:0; 
+  overflow:hidden;
+  width:100vw;
+  font-family: helvetica;
+  height:100vh;
+  background:linear-gradient(30deg,#dedede, #ffffff)
+}
+.footer {
+  bottom: 2px;
+  position: absolute;
+  left: 12px;
+  color: grey;
+  font-family: monospace;
+  font-style: italic;
+}
+.footer > a {
+  color: grey;
+}
+#input-text{
+      position: absolute;
+    width: 200px;
+    height: 40px;
+    top: calc(50% - 260px);
+    left: calc(50% - 200px);
+    border: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    border-radius: 2px;
+    box-shadow: 0 0px 10px 0 rgba(0,0,0, 0.1);
+    font-weight: 700;
+    color: #555555;
+}
+.container{
+  position: absolute;
+  width: 400px;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  box-shadow: 0 0px 10px 0 rgba(0,0,0, 0.2);
+  height: 400px;
+  background: white;
+  overflow: hidden;
+}
